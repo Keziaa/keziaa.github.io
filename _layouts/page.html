@@ -4,7 +4,7 @@
 	<body>
 		<style>
 			.title {
-				padding: 10% 5%;
+				padding: 5%;
 				color: #101417;
 				font-size: 18px;
 				font-weight: bold;
@@ -18,7 +18,12 @@
 		<!-- nav -->
 		{% include nav.html %}
 		<!-- page content -->
-			{{"WELCOME TO THE SITE"}}
+		<main class="content">
+			<p class="title">
+				{{page.title}}
+			</p>
+			{{content}}
+		</main>
 
 		<!-- footer -->
 		{% include footer.html %}

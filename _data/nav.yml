@@ -1,0 +1,7 @@
+list:
+  - title: Home
+    url: ""
+  - title: Games
+    url: games
+  - title: About
+    url: about
