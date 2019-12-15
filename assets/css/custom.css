@@ -8,6 +8,7 @@ body {
 img {
     width: auto;
 	max-width: 100% !important;
+    max-height: 100% !important;
     height: auto;
 }
 
