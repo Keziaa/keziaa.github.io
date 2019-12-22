@@ -1,6 +1,6 @@
 ---
 layout: game
-title: Bittersweet!
+title: Bittersweet
 permalink: /bittersweet/
 date: 
 image1: /images/img_bittersweet1.png
