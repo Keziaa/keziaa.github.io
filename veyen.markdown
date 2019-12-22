@@ -4,8 +4,7 @@ title: Veyen
 permalink: /veyen/
 date: 
 image1: /images/img_veyen1.png
-image2: /images/img_veyen2.png
-image3: /images/img_veyen3.png
+image2: /images/img_veyen3.png
 gamelink: https://kezia.itch.io/i
 ---
 

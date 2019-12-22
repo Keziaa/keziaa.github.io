@@ -4,8 +4,7 @@ title: Bittersweet
 permalink: /bittersweet/
 date: 
 image1: /images/img_bittersweet1.png
-image2: /images/img_bittersweet2.png
-image3: /images/img_bittersweet3.png
+image2: /images/img_bittersweet3.png
 gamelink: https://kezia.itch.io/bittersweet
 ---
 
