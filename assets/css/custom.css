@@ -138,4 +138,19 @@ footer {
 		margin-left: 10%;
 		margin-right: 10%;
 	}
+    div.column {
+        width: 100%;
+    }
+
+    div.mainRunner {
+        padding-left: 15vw;
+        height: 720px;
+        width: 300px;
+    }
+
+    h3 {
+        white-space: nowrap;
+        font-size: 7vw !important;
+        line-height: 2vw
+    }
 }
