@@ -1,31 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 	{% include head.html %}
-	<body>
-		<style>
-			.title {
-				padding: 5%;
-				color: #101417;
-				font-size: 18px;
-				font-weight: bold;
-				text-align: center;
-				background: #f78e66;
-				display: grid;
-			}
-		</style>
-		<!-- header -->
-		{% include header.html %}
-		<!-- nav -->
-		{% include nav.html %}
-		<!-- page content -->
-		<main class="content">
-			<p class="title">
-				{{page.title}}
-			</p>
-			{{content}}
-		</main>
+<body>
+    <style>
 
-		<!-- footer -->
-		{% include footer.html %}
-	</body>
+        .title {
+            padding: 5%;
+            color: #101417;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            background: #f78e66;
+            display: grid;
+        }
+
+        .mainRunner {
+            position: relative;
+        }
+
+        .img1 {
+            position: relative;
+            z-index: 2;
+        }
+
+        .column {
+            float: left;
+            width: 45%;
+            padding: 5px;
+        }
+
+        /* Clear floats after image containers */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+    <!-- header -->
+    {% include header.html %}
+    <!-- nav -->
+    {% include nav.html %}
+    <!-- page content -->
+    <main class="content">
+        <p class="title">
+            {{page.title}}
+        </p>
+        <div class="row">
+            <div class="container">
+                <div class="column">
+                    <div class="mainRunner">
+                        <p>
+                            <img src="{{site.baseurl}}{{page.image1}}" alt="image1" class="img1" />
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <p> {{content}}</p>
+                    <a href="https://twitter.com/mystic_muffins">Twitter</a>
+                    <a href="https://www.linkedin.com/in/keziaadamo/">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    {% include footer.html %}
+</body>
 </html>

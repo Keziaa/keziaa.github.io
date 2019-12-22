@@ -1,13 +1,25 @@
-* {
-	outline: none;
-}
+
 body {
-	color: rgb(167, 158, 139) !important;
+    /*/color: rgb(0, 158, 139) !important;*/
+    color: #8ac2ac;
+    /*167*/
 }
 
 img {
 	max-width: 100% !important;
     max-height: 100% !important;
+}
+
+text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /* header */
@@ -86,6 +98,27 @@ main {
 	position: absolute;
 	left: -0.8em;
 	font-weight: bold;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: auto;
+    padding: 5px;
+}
+
+.row
+{
+    margin: 0 auto;
+    width: auto;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table-cell;
+    text-align: center;
 }
 
 /* footer */

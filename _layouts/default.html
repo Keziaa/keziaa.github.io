@@ -1,26 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 	{% include head.html %}
-	<body>
-		<style>
-			.title {
-				padding: 10% 5%;
-				color: #101417;
-				font-size: 18px;
-				font-weight: bold;
-				text-align: center;
-				background: #f78e66;
-				display: grid;
-			}
-		</style>
-		<!-- header -->
-		{% include header.html %}
-		<!-- nav -->
-		{% include nav.html %}
-		<!-- page content -->
-			{{"WELCOME TO THE SITE"}}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .container {
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
 
-		<!-- footer -->
-		{% include footer.html %}
-	</body>
+        .image {
+            display: block;
+            width: auto;
+            height: auto;
+            max-width: 200px;
+            max-height: 200px;
+        }
+
+        .overlay {
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: auto;
+            width: auto;
+            max-width: 200px;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #f78e66;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .container:hover .overlay {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <style>
+
+        .title {
+            padding: 1%;
+            color: #102417;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            background: #f78e66;
+            display: grid;
+        }
+    </style>
+    <!-- header -->
+    {% include header.html %}
+    <!-- nav -->
+    {% include nav.html %}
+    <!-- page content -->
+    <main class="content">
+        <!--<p class="aaa">
+        </p>-->
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                    <img src="{{site.baseurl}}/images/img_cuphead.png" alt="Cuphead" class="image" />
+                    <a href="{{site.baseurl}}/cuphead/"><div class="overlay"><p></p>Cuphead</div></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <img src="{{site.baseurl}}/images/img_magnets.png" alt="Magnets" class="image" />
+                    <a href="{{site.baseurl}}/magnets/"><div class="overlay"><p></p>Magnets</div></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <img src="{{site.baseurl}}/images/img_bittersweet.png" alt="Bittersweet" class="image" />
+                    <a href="{{site.baseurl}}/bittersweet/"><div class="overlay"><p></p>Bittersweet</div></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                    <img src="{{site.baseurl}}/images/img_veyen.png" alt="Veyen" class="image" />
+                    <a href="{{site.baseurl}}/veyen/"><div class="overlay"><p></p>Veyen</div></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <img src="{{site.baseurl}}/images/img_hacker.png" alt="Hacked" class="image" />
+                    <a href="{{site.baseurl}}/hacked/"><div class="overlay"><p></p>Hacked</div></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <img src="{{site.baseurl}}/images/img_jfmsu.png" alt="JFMSU" class="image" />
+                    <a href="{{site.baseurl}}/JFMSU/"><div class="overlay"><p></p>Just F*** My S*** Up</div></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    {% include footer.html %}
+</body>
 </html>
