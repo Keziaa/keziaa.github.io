@@ -144,7 +144,7 @@ footer {
 
     div.mainRunner {
         padding-left: 15vw;
-        height: 720px;
+        height: auto;
         width: 300px;
     }
 
