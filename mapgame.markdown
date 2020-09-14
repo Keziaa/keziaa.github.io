@@ -1,7 +1,7 @@
 ---
 layout: game
 title: Map Game
-permalink: mapgame
+permalink: /mapgame/
 date: 
 image1: /images/img_mapgame1.png
 image2: /images/mapgame2.gif
