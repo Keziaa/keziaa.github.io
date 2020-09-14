@@ -4,7 +4,7 @@ title: Revertices
 permalink: /revertices/
 date: 2019-Present
 image1: /images/cirne1.gif
-image2: /images/img_revertices1.png
+image2: /images/img_revertices_1.png
 image3: /images/img_magnets3.png
 gamelink: https://twitter.com/mystic_muffins
 ---

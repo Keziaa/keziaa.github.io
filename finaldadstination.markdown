@@ -3,8 +3,8 @@ layout: game
 title: Final Dadstination
 permalink: /finaldadstination/
 date: 
-image1: /images/img_finaldadstination2.png
-image2: /images/img_finaldadstination1.png
+image1: /images/img_finaldadstination_2.png
+image2: /images/img_finaldadstination_1.png
 image3: /images/img_magnets3.png
 gamelink: https://kezia.itch.io/final-dadstination
 ---
