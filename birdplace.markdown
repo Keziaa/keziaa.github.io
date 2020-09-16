@@ -11,3 +11,5 @@ gamelink: https://kezia.itch.io/bird-place
 
 Bird Place is a very small VR experience I made in March 2020. The game lets the player experiment with physics in VR by interacting with cute birds.
 
+I put together the scene with assets off the Unity asset store and programmed some small functionality.
+

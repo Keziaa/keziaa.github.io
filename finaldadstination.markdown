@@ -9,9 +9,9 @@ image3: /images/img_magnets3.png
 gamelink: https://kezia.itch.io/final-dadstination
 ---
 
-Final Dadstination was made for ToJam 2020. The game consists of customizable dads going on a roadtrip to pickup their newfound child.
+Final Dadstination was made for ToJam 2020 in the Unity engine. The game consists of customizable dads going on a roadtrip to pickup their newfound child.
 
 
-I worked with three other developers to create Final Dadstination. I prioritized the character creator as well as various features and bug fixes.
+I worked with three other developers to create Final Dadstination. I programmed the character creator as well as various features and bug fixes.
 
 

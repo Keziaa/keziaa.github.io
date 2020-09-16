@@ -9,7 +9,7 @@ image3: /images/img_jfmsu3.png
 gamelink: https://escapecharacter.itch.io/jfmsu
 ---
 
-Just F*** My S*** Up is a janky VR haircutting simulator made for a game jam in April 2019.
+JFMSU is a janky VR haircutting simulator made during April 2019 in the Unity engine.
 
 In JFMSU the player takes on the role of the barber as they style their customers’ hair in VR. 
 

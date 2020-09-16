@@ -11,6 +11,6 @@ gamelink: https://kezia.itch.io/magnets
 
 Magnets! Is a game where the player controls two magnets that can change polarity to interact with each other and the environment to solve puzzles. It can be played in single player or two player local co-op.
 
-I fully programmed, designed, and created the art for Magnets.
+I fully programmed, designed, and created the art for Magnets. Magnets was made in Unity.
 
 
