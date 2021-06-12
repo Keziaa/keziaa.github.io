@@ -2,7 +2,7 @@
 <html lang="en">
 	{% include head.html %}
 <head>
-    <meta name="description" content="Games By Kezia!">
+    <meta name="description" content="Hi, I'm Kezia!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         .container {
@@ -60,10 +60,13 @@
     {% include header.html %}
     <!-- nav -->
     {% include nav.html %}
-    <!-- page content -->
+
+
+    <main class="title">
+    Here's some games I worked on
+    </main>
+
     <main class="content">
-        <!--<p class="aaa">
-    </p>-->
         <div class="row">
             <div class="column">
                 <div class="container">
@@ -73,19 +76,45 @@
             </div>
             <div class="column">
                 <div class="container">
+                    <img src="{{site.baseurl}}/images/img_cupheaddlc.png" alt="Cuphead: The Delicious Last Course" class="image" />
+                    <a href="{{site.baseurl}}/cupheaddlc/"><div class="overlay"><p></p>Cuphead: The Delicious Last Course</div></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
                     <img src="{{site.baseurl}}/images/img_revertices.png" alt="Revertices" class="image" />
                     <a href="{{site.baseurl}}/revertices/"><div class="overlay"><p></p>Revertices</div></a>
                 </div>
             </div>
+        </div>
+            <div class="row">
+            <div class="column">
+                <div class="container">
+                    <img src="{{site.baseurl}}/images/img_ofk.png" alt="We Are OFK" class="image" />
+                    <a href="{{site.baseurl}}/ofk/"><div class="overlay"><p></p>We Are OFK</div></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <img src="{{site.baseurl}}/images/img_moonglow.png" alt="Moonglow Bay" class="image" />
+                    <a href="{{site.baseurl}}/moonglow/"><div class="overlay"><p></p>Moonglow Bay</div></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class="title">
+    Game Jam Games
+    </main>
+
+  <main class="content">
+        <div class="row">
             <div class="column">
                 <div class="container">
                     <img src="{{site.baseurl}}/images/img_magnets.png" alt="Magnets" class="image" />
                     <a href="{{site.baseurl}}/magnets/"><div class="overlay"><p></p>Magnets</div></a>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
             <div class="column">
                 <div class="container">
                     <img src="{{site.baseurl}}/images/img_bittersweet.png" alt="Bittersweet" class="image" />
@@ -98,15 +127,13 @@
                     <a href="{{site.baseurl}}/heybro/"><div class="overlay"><p></p>Hey Bro, Stay a While and Listen</div></a>
                 </div>
             </div>
+        <div class="row">        
             <div class="column">
                 <div class="container">
                     <img src="{{site.baseurl}}/images/img_veyen.png" alt="Veyen" class="image" />
                     <a href="{{site.baseurl}}/veyen/"><div class="overlay"><p></p>Veyen</div></a>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
             <div class="column">
                 <div class="container">
                     <img src="{{site.baseurl}}/images/img_hacker.png" alt="Hacked" class="image" />
@@ -119,21 +146,20 @@
                     <a href="{{site.baseurl}}/JFMSU/"><div class="overlay"><p></p>Just F*** My S*** Up</div></a>
                 </div>
             </div>
-            <div class="column">
+       <div class="row">
+         <div class="column">
                 <div class="container">
                     <img src="{{site.baseurl}}/images/img_birdplace.png" alt="Bird Place" class="image" />
                     <a href="{{site.baseurl}}/birdplace/"><div class="overlay"><p></p>Bird Place</div></a>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="column">
+         <div class="column">
                 <div class="container">
                     <img src="{{site.baseurl}}/images/img_finaldadstination.png" alt="Final Dadstination" class="image" />
                     <a href="{{site.baseurl}}/finaldadstination/"><div class="overlay"><p></p>Final Dadstination</div></a>
                 </div>
             </div>
+        </div>
             <div class="column">
                 <div class="container">
                     <img src="{{site.baseurl}}/images/img_mapgame.png" alt="MapGame" class="image" />
@@ -142,6 +168,7 @@
             </div>
         </div>
     </main>
+
     <!-- footer -->
     {% include footer.html %}
 </body>
