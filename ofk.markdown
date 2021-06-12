@@ -1,7 +1,7 @@
 ---
 layout: game
 title: We Are OFK
-permalink: /WeAreOFK/
+permalink: /weareofk/
 date: 2021-Present
 image1: /images/img_ofk1.png
 image2: /images/img_ofk2.png
