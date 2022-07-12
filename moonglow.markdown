@@ -2,7 +2,7 @@
 layout: game
 title: Moonglow Bay
 permalink: /moonglow/
-date: 2021-Present
+date: 2021-2022
 image1: /images/img_moonglow1.png
 image2: /images/img_moonglow2.png
 gamelink: https://store.steampowered.com/app/1361400/Moonglow_Bay/

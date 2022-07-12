@@ -2,7 +2,7 @@
 layout: game
 title: We Are OFK
 permalink: /weareofk/
-date: 2021-Present
+date: 2021-2022
 image1: /images/img_ofk1.png
 image2: /images/img_ofk2.png
 gamelink: https://store.steampowered.com/app/1490340/We_Are_OFK/
