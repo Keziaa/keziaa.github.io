@@ -10,7 +10,7 @@ Hey, I’m Kezia (key-zee-ah)! I’m a non-binary (they/them) game developer. I�
 
 I enjoy video games that push the boundary of the medium and mess with the player’s expectations. I often aim for surrealism and dreamlike qualities in the content I make. 
 
-These days I'm doing generalist programming at Laundry Bear, freelance work, as well as developing my own game Revertices.
+These days I'm taking on freelance work as well as developing my own game Revertices.
 
 I live in Toronto, Ontario with my cat Yuffie.
 
