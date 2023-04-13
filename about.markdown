@@ -6,7 +6,7 @@ image1: /images/img_about1.jpg
 image2: /images/img_about2.jpg
 date:
 ---
-Hey, I’m Kezia (key-zee-ah)! I’m a non-binary (they/them) game developer. I’m a gameplay/generalist programmer who specializes in the Unity engine. 
+Hey, I’m Kezia (key-zee-ah)! I’m a non-binary (they/them) game developer. I’m a gameplay and generalist programmer who specializes in the Unity engine. 
 
 I was one of the primary programmers on Cuphead and I worked on a large portion of its DLC. I also contributed on other indie games such as We Are OFK and Moonglow Bay. I also help organize Dirty Rectangles Toronto which is known for their monthly Show & Chills. I was also selected for Forbes 30 under 30 2020 in Games.
 
