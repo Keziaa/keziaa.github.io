@@ -6,11 +6,10 @@ date: 2019-Present
 image1: /images/img_revertices2.png
 image2: /images/img_revertices1.png
 image3: 
-gamelink: https://twitter.com/Revertices
+gamelink: https://store.steampowered.com/app/3236560/Revertices/
 ---
 
-Revertices is an experimental existential 2D sidescroller. The game has three playable characters and the events of the playthrough are determined by the order the player selects them in. Revertices is a personal project of mine that I am developing in my own free time. The game is currently being developed by myself, another programmer and one musician.
-
-Revertices is currently in early development.
+Revertices is a 2D sidescrolling action combat game where you must choose one of three friends to save in a ruined world. The chosen character must face the corrupted remains of their two beloved friends. I take on the role as creative director, lead programmer, lead artist and lead designer.
+Revertices is currently mid-development.
 
 
